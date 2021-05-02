@@ -21,7 +21,7 @@ Telegraf is an agent for collecting metrics and writing them to InfluxDB or othe
 In this fork, three things added:
 * Copy modified `entrypoint.sh` to the docker image (by zejdlikt/telegraf-snmp)
 * Added `--config-directory` as a startup parameter - you can add configuration files into the `/etc/telegraf/telegraf.d/` folder (by zejdlikt/telegraf-snmp)
-* Multiplatform builds for `linux/amd64`, `linux/arm/v6`, `linux/arm/v7` and `linux/arm64/v8` available
+* Multiplatform builds for `linux/amd64`, `linux/arm/v7` and `linux/arm64/v8` available
 
 Based on:
 
