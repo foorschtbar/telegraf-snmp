@@ -8,15 +8,18 @@
   ![](https://img.shields.io/docker/image-size/foorschtbar/telegraf-snmp?style=plastic)
 ](https://hub.docker.com/repository/docker/foorschtbar/telegraf-snmp)
 [
-  ![](https://img.shields.io/github/workflow/status/foorschtbar/telegraf-snmp-docker/Build%20Docker%20Images?style=plastic)
-  ![](https://img.shields.io/github/languages/top/foorschtbar/telegraf-snmp-docker?style=plastic)
-  ![](https://img.shields.io/github/last-commit/foorschtbar/telegraf-snmp-docker?style=plastic)
-  ![](https://img.shields.io/github/license/foorschtbar/telegraf-snmp-docker?style=plastic)
-](https://github.com/foorschtbar/telegraf-snmp-docker)
+  ![](https://img.shields.io/github/workflow/status/foorschtbar/telegraf-snmp/Build%20Docker%20Images?style=plastic)
+  ![](https://img.shields.io/github/languages/top/foorschtbar/telegraf-snmp?style=plastic)
+  ![](https://img.shields.io/github/last-commit/foorschtbar/telegraf-snmp?style=plastic)
+  ![](https://img.shields.io/github/license/foorschtbar/telegraf-snmp?style=plastic)
+](https://github.com/foorschtbar/telegraf-snmp)
 
-Telegraf Docker Image with Net-SNMP included!
+Telegraf Docker Image with Net-SNMP included.
 
-Telegraf is an agent for collecting metrics and writing them to InfluxDB or other outputs. The reason why this image has been forked ([Docker Hub link](https://hub.docker.com/r/foorschtbar/telegraf-snmp/)) is that the official one does not include the SNMP MIBs (used by the `input.snmp` input plugin), it doesnt support ARM architectures and also `config` directory is not specified.
+* GitHub: [foorschtbar/telegraf-snmp](https://github.com/foorschtbar/telegraf-snmp)
+* Docker Hub: [foorschtbar/telegraf-snmp](https://hub.docker.com/r/foorschtbar/telegraf-snmp)
+
+Telegraf is an agent for collecting metrics and writing them to InfluxDB or other outputs. The reason why this image has been forked is that the official one does not include the SNMP MIBs (used by the `input.snmp` input plugin), it doesnt support ARM architectures and also `config` directory is not specified.
 
 In this fork, three things added:
 * Copy modified `entrypoint.sh` to the docker image (by zejdlikt/telegraf-snmp)
